@@ -22,13 +22,15 @@ body {
 
 .clock {
     position: relative;
-    width: 30rem;
-    height: 30rem;
+    width: 20rem;
+    height: 20rem;
     border: 20px solid white;
     border-radius: 50%;
-    margin: 50px auto;
-    padding: 2rem;
+    margin: 30px auto;
+    padding: 6rem;
     transform: translateY(-3px);
+    background-image: url(/clock.png);
+    background-size: cover;
 }
 
 .hand {
